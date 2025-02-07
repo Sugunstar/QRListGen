@@ -6,11 +6,11 @@
     <title>Multi-line Input</title>
 </head>
 <body>
-    <h2>Enter Multi-line Text</h2>
-    <textarea id="textInput" rows="6" cols="50" placeholder="Type here..."></textarea>
+    <h2>Enter Data and Multi-line items!!</h2>
+    <form action="{{ url_for("file_creation")}}" method="post">
+    <textarea id="textInput" name="data" rows="6" cols="50" placeholder="Type here..."></textarea>
     <br><br>
     <button onclick="sendData()">Submit</button>
-
-    <script src="script.js"></script>
+    </form>
 </body>
 </html>
