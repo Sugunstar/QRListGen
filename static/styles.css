@@ -1,0 +1,84 @@
+/* Apply a stylish background */
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+    font-family: 'Poiret One', cursive;
+    background: linear-gradient(135deg, #4a90e2, #6ab7ff); /* Softer blue gradient */
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+/* Center the form and content inside a light box */
+.container {
+    background: rgba(255, 255, 255, 0.1); /* Slightly lighter background */
+    backdrop-filter: blur(15px);
+    padding: 25px;
+    border-radius: 12px;
+    width: 50%;
+    margin: auto;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Center the form and style it */
+form {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the textareas */
+textarea {
+    width: 90%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #333;
+    background: rgba(255, 255, 255, 0.85); /* Softer background for textarea */
+    margin-top: 12px;
+    resize: none;
+}
+
+/* Improve textarea focus */
+textarea:focus {
+    outline: none;
+    border: 2px solid #ff6347; /* Coral color for focus */
+    box-shadow: 0 0 12px rgba(255, 99, 71, 0.6); /* Coral glow effect */
+}
+
+/* Style the submit button */
+.button-54 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff; /* White text for contrast */
+  cursor: pointer;
+  border: 3px solid #ff6347; /* Coral border for consistency */
+  padding: 0.25em 0.5em;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+  position: relative;
+  background: #ff6347; /* Coral background for button */
+  transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.button-54:hover {
+  background: #e55347; /* Darker shade on hover */
+  border-color: #e55347; /* Matching hover border */
+}
+
+.button-54:active {
+  box-shadow: 0px 0px 0px 0px;
+  top: 5px;
+  left: 5px;
+}
+
+@media (min-width: 768px) {
+  .button-54 {
+    padding: 0.25em 0.75em;
+  }
+}
