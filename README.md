@@ -57,8 +57,7 @@ Download or scan the QR code to view the item details.
 
 ![hi1](https://github.com/user-attachments/assets/5568b3c9-8b18-40d8-bdae-111655acfc0c)
 ![land](https://github.com/user-attachments/assets/988c5271-2a4f-4b88-bdc1-2e6d3716e645)
-![qr_code](https://github.com/user-attachments/assets/12bfe1e9-4dfe-4d2a-9bc7-c7ab1b418680)
-
+![qr_code](https://github.com/user-attachments/assets/9a433a80-0d54-4f89-a5cc-1af66a913b51)
 
 **Future Improvements**
 
