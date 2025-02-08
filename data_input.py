@@ -1,15 +1,16 @@
-print("enter data")
-f=open('file.txt','a')
-print("enter 'END' to end inputing data")
+import pymongo
+if __name__=="__main__":
+    client=pymongo.MongoClient("mongodb://localhost:27017")
+    name=input("enter your database name")
+    db=client[name]
+    collection=db['list_items']
+    f=open("file.txt",'+a')
 
-flag = 0
-st=""
-while (flag != 1):
-    st=""
-    st=input()
-    f.write(st)
-    f.write('\n')
-    if(st == "END"):
-        flag=1
-
+    num=int(input("enter the number of items to be added"))
+    for i in range(1,num+1):
+        key=input(f"enter item {i}")
+        value=input(f"enter value of {i}th item")
+        f.write(f"{key} --- {value}")
+        f.write("\n")
+    
     
