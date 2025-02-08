@@ -55,7 +55,10 @@ Download or scan the QR code to view the item details.
 
 **Screenshots**
 
-📌 (Add screenshots of your UI and QR code generation process here.)
+![hi1](https://github.com/user-attachments/assets/5568b3c9-8b18-40d8-bdae-111655acfc0c)
+![land](https://github.com/user-attachments/assets/988c5271-2a4f-4b88-bdc1-2e6d3716e645)
+![qr_code](https://github.com/user-attachments/assets/12bfe1e9-4dfe-4d2a-9bc7-c7ab1b418680)
+
 
 **Future Improvements**
 
