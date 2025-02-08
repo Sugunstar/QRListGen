@@ -1,0 +1,33 @@
+/* Apply a stylish background */
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+    font-family: 'Poiret One', cursive;
+    background: linear-gradient(135deg, #4a90e2, #6ab7ff);
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+/* Center the form and content inside a light box */
+.container {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    padding: 25px;
+    border-radius: 12px;
+    width: 50%;
+    margin: auto;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+img {
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
