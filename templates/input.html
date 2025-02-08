@@ -1,18 +1,17 @@
 -<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Multi-line Input</title>
+    <link rel="stylesheet" href="static/styles.css">
 </head>
 <body>
-    <h2>Enter Data and Multi-line items!!</h2>
     <form action="{{ url_for("file_creation")}}" method="post">
-    <textarea id="textInput" name="data" rows="6" cols="50" placeholder="Type here..."></textarea>
+    <h2>Add some discription to specify what list items you are displaying</h2>
+    <textarea id="textInput" name="data" rows="6" cols="50" placeholder="Type your discription here..."></textarea>
     <br><br>
-    <textarea id="textInput" name="items" rows="6" cols="50" placeholder="mention your list items here along with the item number..."></textarea>
+    <h2>Enter your list items here</h2>
+    <textarea id="textInput" name="items" rows="6" cols="50" placeholder="mention your list items here along with the item number make sure every new item is on a different line..."></textarea>
     <br><br>
-    <button onclick="sendData()">Submit</button>
+    <button onclick="sendData()"class="button-54" role="button">Submit</button>
     </form>
 </body>
 </html>
