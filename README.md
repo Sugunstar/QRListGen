@@ -1,4 +1,4 @@
-# QR Code Generator for Hotels & Grocery Stores
+# QRListGen – QR Code List Generator
 
 **Description**
 
