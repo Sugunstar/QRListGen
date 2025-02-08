@@ -7,6 +7,10 @@ app = Flask(__name__)
 CORS(app)  
 
 @app.route('/',methods=['GET','POST'])
+def home():
+    return render_template('home_page.html')
+
+@app.route('/enter_data',methods=['GET','POST'])
 def enter_data():
     return render_template('input.html')
 
