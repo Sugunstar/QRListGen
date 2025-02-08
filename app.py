@@ -38,7 +38,7 @@ def qrc():
     img = qr.make_image(fill_color="black", back_color="white")
     os.chdir("C:/Users/miria/OneDrive/Documents/adi/jmi/static")
     img.save("image.jpeg")
-
+    os.chdir("C:/Users/miria/OneDrive/Documents/adi/jmi")
     return render_template('output.html')
     
 
