@@ -12,9 +12,10 @@ def enter_data():
 
 @app.route('/file_creation',methods=['GET','POST'] )
 def file_creation():
-    st=request.form.get("data")
+    st1=request.form.get("data")
+    st2=request.form.get("items")
+    st=st1+" "+st2
     f=open('file.txt','a')
-    flag = 0
     l1=st.split()
     for word in l1:
         f.write(word)
@@ -37,7 +38,7 @@ def qrc():
     qr.make(fit=True)
 
     img = qr.make_image(fill_color="black", back_color="white")
-    os.chdir("C:/Users/home/Desktop/jmi/static")
+    os.chdir("C:/Users/miria/OneDrive/Documents/adi/jmi/static")
     img.save("image.jpeg")
 
     return render_template('output.html')
