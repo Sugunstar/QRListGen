@@ -14,12 +14,10 @@ def enter_data():
 def file_creation():
     st1=request.form.get("data")
     st2=request.form.get("items")
-    st=st1+" "+st2
+
+    st=st1+"\n\n"+st2
     f=open('file.txt','a')
-    l1=st.split()
-    for word in l1:
-        f.write(word)
-        f.write('\n')
+    f.write(st)
     return redirect(url_for("qrc"))
 
 @app.route('/qrc',methods=['GET','POST'])
